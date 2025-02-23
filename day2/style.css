@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:aliceblue;
+    padding: 2vw;
+
+    
+}
+#mab   {
+    color: rgb(20, 20, 39);
+    margin-top: 3vh;
+    
+}
+#bar{
+    height: 7.5vh;
+    width: 100%;
+   background-color:  rgb(75, 175, 226);
+   margin-top: 2vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+   padding-left: 43%;
+   padding-right: 43%;
+   font-size: small;
+}
+#b1 {
+    background-color: white;
+}
+
+
+#bar a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+#bar h1{
+    font-size: medium;
+}
+
+#hr1{
+    margin-top: 1vh;
+}
+#mbp{
+    margin-top: 5vh;
+    font-size: 23px;
+}
+#hr2{
+      
+    margin-top: 2vh;
+   
+}
+#h31{
+    margin-top: 2vh;
+    font-weight: 100;
+}
+
+#h32{
+    font-weight: 100;
+}
+#img1{
+    margin-top: 1vh;
+    margin-left: 35%;
+}
+#cbs{
+    font-weight: 100;
+}
+
+#hr3{
+    margin-top: 0.5vh;
+}
+#ul1{
+    margin-left: 2.5vw;
+}
+
+
+#b2{
+    width: 100%;
+    background-color: white;
+    height: 60vh;
+    padding-left: 1vw;
+    margin-top: 3vh;
+}
+#msb{
+    padding-top: 3vh;
+   
+}
+#b2h31{
+    font-weight: 100;
+
+}
+#b2h32{
+    font-weight: 100;
+}
+#b2 h3{
+    font-weight: 100;
+}
+
+#bot {
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(119, 113, 113);
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+#bot h3{
+    color: white;
+    align-self: center;
+    
+
+}

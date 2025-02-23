@@ -1,0 +1,147 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+
+}
+#main{
+    height:100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#bar1{
+    height: 10vh;
+    width: 100%;
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bar1 h1{
+
+   color: white;
+}
+
+#bar2{
+    height: 7vh;
+    width: 100%;
+    
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+
+
+}
+#bar2 a{
+    color:rgb(12, 10, 27) ;
+    text-decoration:none;
+    font-size: larger;
+    font-weight: 400 ;
+}
+
+#mid{
+
+    background-color:;
+    height: 110vh;
+    width: 100%;
+    display: flex
+        
+}
+#left
+{
+
+
+    background-color:;
+    height: 100%;
+    width: 20%;
+    padding: 1vw;
+
+
+
+
+}
+
+.lus{
+
+    padding: 1vw;
+    
+    margin-top: 2VH;
+
+    border-top: 2px dotted black;
+}
+.lus a{
+
+    text-decoration: none;
+    font-size: larger;
+    
+}
+
+#right{
+    background-color:;
+    width: 80%;
+    height: 100%;
+    padding: 1vw;
+}
+
+#wdc{
+    font-size:40px;
+    font-weight: 900;
+
+}
+
+#imgs{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+
+}
+
+#imgs img{
+    height: 100%;
+    width: 30%;
+}
+#li{
+    margin-top: 4vh;
+    font-weight: 400;
+    margin-left: 8px;
+}
+ul{
+    row-gap: 10px;
+}
+ul b{
+font-weight: 100 ;
+}
+
+#lma{
+    font-weight: 100;
+
+}
+#foot{
+
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foot p{
+
+color: white;
+font-size: larger;
+
+
+}
+
+
+
+   
