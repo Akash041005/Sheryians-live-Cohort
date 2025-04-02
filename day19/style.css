@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  main {
+    height: 100%;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+  }
+  main .nav {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+  }
+  main .nav .left {
+    width: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .nav .left i {
+    font-size: 2rem;
+  }
+  main .nav .left a {
+    margin-left: 0.3px;
+    font-family: "Roboto Mono", serif;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 2vh;
+    letter-spacing: 0.1px;
+  }
+  main .nav .right {
+    display: none;
+  }
+  .show1 .werk {
+    height: -moz-max-content;
+    height: max-content;
+    width: 100%;
+  }
+  .show1 .werk img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .show1 .baf {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    font-family: "Roboto Mono", serif;
+    font-style: normal;
+    font-size: small;
+  }
+  .view2 {
+    width: 100%;
+  }
+  .view2 img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-top: 1.5rem;
+  }
+  .view2 h1 {
+    width: 95%;
+    height: 2rem;
+    margin-top: 3vh;
+    font-family: "Roboto Mono", serif;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: -0.1vw;
+    line-height: 5vh;
+  }
+  .view2 p {
+    margin-top: 2vh;
+    font-family: "Roboto Mono", serif;
+    font-style: normal;
+    font-size: 4vw;
+    line-height: 3vh;
+    font-weight: 200;
+  }
+}/*# sourceMappingURL=style.css.map */
