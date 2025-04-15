@@ -1,0 +1,38 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .main .mainleft {
+    display: none;
+    width: 100%;
+    height: initial;
+  }
+  .main .mainright {
+    background-color: #000;
+    width: -moz-max-content;
+    width: max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .main .mainright .sbar {
+    width: 60%;
+  }
+  .main .mainright .cardlu {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .main .mainright .card {
+    width: 100%;
+  }
+}/*# sourceMappingURL=response.css.map */

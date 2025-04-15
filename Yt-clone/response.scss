@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html,body{
+
+height: max-content;
+width: 100%;
+}
+
+
+
+@media(max-width:600px) {
+
+    .main{
+
+       .mainleft{
+        display: none;
+        width: 100%;
+        height: initial;
+
+       }
+       .mainright{
+
+        background-color: #000;
+        width: max-content;
+        height: max-content;
+
+        .sbar{
+            width: 60%;
+        }
+
+        .cardlu{
+
+            background-color: #000;
+
+            display: flex;
+            flex-direction: column;
+           flex-wrap: nowrap;
+        }
+        .card{
+            width: 100%;
+        }
+       }
+    }
+    
+}

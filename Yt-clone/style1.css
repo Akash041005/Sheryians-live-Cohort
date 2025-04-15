@@ -1,0 +1,37 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: url(https://imgs.search.brave.com/TbsB5Lgh1JhtCb5VD903kUqgMYCmn0OozSvD0OslU5s/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDU1NzQ0/MzcuanBn);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.main background {
+  opacity: 1%;
+}
+
+iframe {
+  width: 70%;
+  height: 70%;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 90%;
+    height: 12rem;
+  }
+}/*# sourceMappingURL=style1.css.map */

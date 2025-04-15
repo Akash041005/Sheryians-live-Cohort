@@ -1,0 +1,304 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-family: "mulish", serif;
+    
+    font-style: normal;
+}
+
+.main{
+
+    width: 100%;
+    background-color: #000;
+    height: max-content ;
+    display: flex;
+    padding: 1rem;
+
+    .mainleft{
+        width: 15%;
+        height:100% ;
+        background-color: #000;
+ 
+    }
+
+
+    .mainright{
+        width: 85%;
+        height: 100%;
+        
+    }
+}
+
+
+
+.mainleft{
+
+    .LeftFirstLine
+    {
+        height: 3rem;
+        width: 100%;
+       
+        display: flex;
+    }
+
+    .lines{
+
+        
+        font-size: 1.5rem;
+        aspect-ratio: 1/1;
+        color: white;
+        background-color: #000;
+        font-weight: 100;
+          }
+        .logo{
+        width: 75%;
+        height: 100%;
+        background-image: url(https://imgs.search.brave.com/JivkeX8VPo4Vlp43xIXPm2pZJbVdgsCAuUBn58sGErI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQveW91/dHViZS1sb2dvLWJs/YWNrLWJhY2tncm91/bmQtMTI4MC14LTkw/NS0yZnZyNHBxcHVm/bzhxaXhwLmpwZw);
+        background-size: cover;
+           background-position: center;
+
+
+        
+
+        
+        }
+
+
+        
+            .elems{
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1vh;
+
+                    .elem{
+                    
+
+                    width: 80%;
+                   border-radius: 8px;
+                    
+                    color: white;
+
+                    i{
+                        font-size: 1.5rem;
+                    }
+                   
+                    a{
+                        font-size: 0.8rem;
+                        
+                    text-decoration: none;
+                    color: white;
+
+                    word-spacing: 1rem;
+
+                    
+                     
+        
+                    }
+                    
+
+            }
+
+            
+            }
+        }
+    
+        .elem:hover{
+            background-color: #242323;
+        }
+
+        .line{
+
+            color: white;
+            background-color: rgb(79, 77, 77);
+            height: 1px;
+            width: 90%;
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+
+        }
+
+        .elem{
+                    
+
+            width: 80%;
+           border-radius: 8px;
+            margin-top: 0.5rem;
+            color: white;
+            word-spacing: 1rem;
+
+            i{
+                font-size: 1.5rem;
+                word-spacing: 1rem;
+            }
+           
+            a{
+                font-size: 0.8rem;
+            text-decoration: none;
+            color: white;
+            word-spacing: 1rem;
+            }
+        }
+
+
+
+
+        .mainright{
+
+            .cardlu{
+                width: 100%;
+                height: 100%;
+                background-color:#000;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+
+                .card{
+
+                        width: 32%;
+                        height: 45%;
+
+
+                    
+                        
+                    
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0.7rem;
+                    
+                       
+                    
+                }
+
+
+
+                
+    .imag{
+        width: 100%;
+        aspect-ratio: 16/9;
+        
+       border-radius: 12px;
+       background-image: url(https://img.youtube.com/vi/EgDmCbhmstU/maxresdefault.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .detail{
+        display: flex;
+        flex-wrap:wrap;
+        
+        width: 100%;
+        aspect-ratio: 16/5.5;
+       color: white;
+        padding: 7px;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .logon{
+            width: 10%;
+            aspect-ratio: 1/1;
+            background-color: grey;
+            border-radius: 50%;
+            background-image: url(https://yt3.googleusercontent.com/14Nf520-HXNdCmvBnCJMZm2NxCgmD-skHJvutlO3Zd6FjyNf8rXHzz9RHf7A44pLDY7z63s8=s160-c-k-c0x00ffffff-no-rj);
+        
+            background-size: cover;
+            background-position: center;
+        
+        }   
+
+                  
+
+                }
+            }
+
+            // background-color: blue;
+
+            .search{
+
+                height: 3rem;
+                width: 100%;
+                gap: 2rem;
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
+               
+               
+
+                .sbar{
+                    height: 70%;
+                    width: 40%;
+                    border-radius: 20px;
+                    color: white;
+                    background-color: #000;
+                    border: 1px solid white;
+                    display: flex;
+
+                    
+                }
+                   
+                    i{
+                        color: white;
+                        font-weight: bolder;
+                    }
+       
+            
+            }
+        
+
+
+                
+           
+       
+    
+
+    
+
+
+               
+
+                
+            
+
+
+
+
+
+
+
+           
+
+         
+        
+        
+        
+        
+        
+        
+        
+    }          
+        
+            
+
+                
+            
+
+
+
+
+        
+    
+
